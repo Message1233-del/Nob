@@ -1,0 +1,101 @@
+<!DOTYPE html>
+<html>
+  <head>
+ 
+ <style>
+ .top{
+   width:600px;
+   height:700px;
+   border-radius: 70px;
+   margin-left:120px;
+   
+ } 
+   
+   
+   
+   
+   
+ </style>
+ 
+ 
+ 
+ 
+ 
+ 
+  <img class="top" src="Henok.png"  alt="">
+  
+    
+<style>
+.typing-text {
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+}
+.mid{
+  width:600px;
+  height:600px;
+  border-radius:50px;-moz-border-radius: margin-left:200px;
+}
+.bd{
+  margin-top:300px;
+  margin-left:310px;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<div class="typing-text"></div>
+<img class="mid" src="Henokk.png" alt="">
+
+<script>
+  const typingText = document.querySelector('.typing-text');
+const textArray = ['endet nachu ene "henok ayele" negn kiten betewatu 7 gize tebedche miwetaw malet new! ', '\n mebedat ena mebdat lemtfelgu sewoch demo tnsh kechn ena tkur kula slalegn endaydebrachu!','\n yenen ye bd tarik magegnet kefelegu "bd" milewn yetachgnawn button ychanu!','\n demo eko slaltegerezkugn endaydebrachu! enam tnesh shermuta neger negn!!!'];
+let index = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[index].length) {
+    typingText.textContent += textArray[index][charIndex];
+    charIndex++;
+    setTimeout(type, 100); // Adjust the delay as needed
+  } else {
+    charIndex = 0;
+    index++;
+    if (index < textArray.length) {
+      setTimeout(type, 1000); // Adjust the delay between text changes
+    }
+  }
+}
+
+type();
+
+  
+  
+  
+</script>
+<div class="bd">
+<button style="width:300px; height:100px; border-radius:40px; shadow:10px; margin-left:20px; margin-top:100px; background-color:blue;"><a href="http://t.me/Henokayelebd_bot" style="color:white; font-size:45px;">BD</a></button>
+</div>
+ <div> <a href="hen.html" style="font-size:58px; color:red; margin-left:10px;">ye henokn kula lemayet felgalew asayegn</a></div>
+    
+    
+  </head>
+ 
+ 
+ 
+ 
+ 
+  <body>
+    
+    
+    
+    
+  </body>
+</html>
